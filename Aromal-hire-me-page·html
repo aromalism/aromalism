@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aromal J. — Linux infrastructure engineer focused on VPS setup, Docker deployment, Nginx, HTTPS, automation, and reliable server maintenance."
+    />
+    <title>Aromal J. — Resume &amp; Hire Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="index.html" aria-label="Aromal J. portfolio home">
+        AROM<span>AL</span>ISM
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="index.html#work">Projects</a>
+        <a href="index.html#notes">Writing</a>
+        <a href="index.html#setup">Setup</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-reference" aria-hidden="true"></div>
+        <p class="eyebrow reveal">
+          Linux Infrastructure Engineer / <span>Systems Programmer / Open Source Builder</span>
+        </p>
+        <h1 class="reveal">HIRE <span>ME</span></h1>
+        <div class="hero-bottom reveal">
+          <div>
+            <div class="terminal-line">$ what-can-you-do</div>
+            <p>
+              I help developers and small teams deploy websites and applications on Linux
+              servers, set up secure VPS environments, and keep infrastructure reliable.
+            </p>
+            <p>
+              I work best on practical server tasks, deployment workflows, automation, and
+              systems that need to be clean, stable, and easy to maintain.
+            </p>
+          </div>
+          <a class="circle-link" href="#services">Services <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="Services overview">
+        <div class="marquee-track">
+          <span>VPS Setup</span><i>//</i><span>Docker</span><i>//</i><span>Nginx</span><i>//</i><span>HTTPS</span><i>//</i><span>SSH</span><i>//</i><span>Backups</span><i>//</i><span>Automation</span><i>//</i><span>Troubleshooting</span><i>//</i><span>VPS Setup</span><i>//</i><span>Docker</span><i>//</i><span>Nginx</span><i>//</i><span>HTTPS</span><i>//</i><span>SSH</span><i>//</i><span>Backups</span><i>//</i><span>Automation</span><i>//</i><span>Troubleshooting</span><i>//</i>
+        </div>
+      </section>
+
+      <section class="work section" id="services">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// Services</p>
+          <h2>What I can<br /><span>help with.</span></h2>
+        </div>
+        <div class="projects">
+          <article class="project project-featured reveal">
+            <div class="project-art synapse">
+              <span>01</span>
+              <div class="orb"></div>
+              <b>VPS<br />SETUP</b>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Linux VPS Setup</h3>
+                <p>
+                  Fresh server setup, user creation, SSH access, package updates, firewall
+                  configuration, and basic hardening.
+                </p>
+              </div>
+              <span class="arrow">✓</span>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-art strux">
+              <span>02</span>
+              <b>DEPLOY<br />APPS</b>
+              <div class="data-lines"></div>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Deployment</h3>
+                <p>
+                  Deploy static sites, Node.js apps, Python apps, and small web projects
+                  with Docker, Docker Compose, and reverse proxies.
+                </p>
+              </div>
+              <span class="arrow">✓</span>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-art echo">
+              <span>03</span>
+              <b>SERVE<br />SECURELY</b>
+              <div class="ring ring-one"></div>
+              <div class="ring ring-two"></div>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Server Maintenance</h3>
+                <p>
+                  Nginx configuration, HTTPS setup, renewal checks, backups, updates,
+                  monitoring basics, and troubleshooting.
+                </p>
+              </div>
+              <span class="arrow">✓</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about-number">/ 02</div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">// About</p>
+          <h2>Practical<br />and <span>reliable.</span></h2>
+          <p class="large-copy">
+            I’m an independent developer focused on Linux systems, deployment work, and
+            software that solves practical problems. I like clean setups, clear
+            documentation, and infrastructure that is easy to understand and maintain.
+          </p>
+          <div class="pill-list" aria-label="Core strengths">
+            <span>Linux systems</span>
+            <span>Server deployment</span>
+            <span>Docker &amp; Compose</span>
+            <span>Nginx &amp; HTTPS</span>
+            <span>Automation</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="notes section" id="experience">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// Experience</p>
+          <h2>What I’ve<br /><span>been building.</span></h2>
+        </div>
+        <div class="notes-grid">
+          <article class="note-card reveal">
+            <span>01</span>
+            <h3>Independent Developer</h3>
+            <p>
+              Building Linux-focused projects, including Synapse OS and other systems
+              software experiments.
+            </p>
+          </article>
+          <article class="note-card reveal">
+            <span>02</span>
+            <h3>Open Source Work</h3>
+            <p>
+              Maintaining public repositories, packaging ideas, and engineering notes on
+              GitHub.
+            </p>
+          </article>
+          <article class="note-card reveal">
+            <span>03</span>
+            <h3>Technical Practice</h3>
+            <p>
+              Working hands-on with Linux, shell tools, Git, Neovim, Bash, Python, C, and
+              server environments.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="setup section" id="skills">
+        <div class="setup-terminal reveal">
+          <p class="eyebrow">// Skills</p>
+          <p><span>aromal@synapse</span>:<b>~</b>$ skills --list</p>
+          <dl>
+            <div><dt>Linux</dt><dd>Ubuntu · Arch · server setup · troubleshooting</dd></div>
+            <div><dt>Infrastructure</dt><dd>SSH · Nginx · HTTPS · firewall · backups</dd></div>
+            <div><dt>Containers</dt><dd>Docker · Docker Compose</dd></div>
+            <div><dt>Automation</dt><dd>Bash · scripting · deployment workflows</dd></div>
+            <div><dt>Languages</dt><dd>C · Python · Shell</dd></div>
+            <div><dt>Tools</dt><dd>Git · GitHub · Neovim · tmux</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="work section" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// Selected projects</p>
+          <h2>Proof of<br /><span>work.</span></h2>
+        </div>
+        <div class="projects">
+          <a
+            class="project project-featured reveal"
+            href="https://github.com/aromalism/synapse-os"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-art synapse">
+              <span>01</span>
+              <div class="orb"></div>
+              <b>SYNAPSE<br />OS</b>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Synapse OS</h3>
+                <p>
+                  A Linux distribution project focused on customization, packaging, and a
+                  cohesive desktop experience.
+                </p>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+          </a>
+          <a class="project reveal" href="https://github.com/synapse-eco" target="_blank" rel="noreferrer">
+            <div class="project-art strux">
+              <span>02</span>
+              <b>SYNAPSE<br />ECO</b>
+              <div class="data-lines"></div>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Synapse Ecosystem</h3>
+                <p>
+                  The public organization and related projects supporting the broader
+                  Synapse work.
+                </p>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+          </a>
+          <a
+            class="project reveal"
+            href="https://github.com/aromalism?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-art echo">
+              <span>03</span>
+              <b>OTHER<br />WORK</b>
+              <div class="ring ring-one"></div>
+              <div class="ring ring-two"></div>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Other Repositories</h3>
+                <p>
+                  Additional systems experiments, utilities, and open-source repositories
+                  on GitHub.
+                </p>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="philosophy section">
+        <p class="eyebrow reveal">// Work style</p>
+        <blockquote class="reveal">
+          “Keep it simple.<br />Keep it reliable.<br />Ship the thing.”
+        </blockquote>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <p class="eyebrow">// Contact</p>
+      <a class="email" href="mailto:aromalism.official@gmail.com">Hire me <span>↗</span></a>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Aromal J.</span>
+
+        <div>
+          <a href="https://github.com/aromalism" target="_blank" rel="noreferrer">GitHub↗</a>
+          <a href="https://www.linkedin.com/in/aromalism" target="_blank" rel="noreferrer">LinkedIn↗</a>
+          <a href="https://twitter.com/aromalism" target="_blank" rel="noreferrer">Twitter↗</a>
+          <a href="https://www.instagram.com/aromalism" target="_blank" rel="noreferrer">Instagram↗</a>
+          <a href="mailto:aromalism.official@gmail.com">Email↗</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
