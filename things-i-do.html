@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Things I Do — Aromal J. (Aromalism) | Synapse OS Development, Linux Infrastructure, and Web Deployments & Scripts."
+    />
+    <title>Things I Do — AROMALISM | Aromal J.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo" aria-label="Aromalism Home">
+          <span class="logo-text">AROM<span class="text-red">AL</span>ISM</span>
+          <span class="logo-badge">SYNAPSE // CATALOG</span>
+        </a>
+
+        <nav class="nav-menu" aria-label="Main Navigation">
+          <a href="index.html">Home</a>
+          <a href="#synapse-os">Synapse OS</a>
+          <a href="#infrastructure">Infrastructure</a>
+          <a href="#deployments">Deployments & Scripts</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="index.html#contact" class="nav-cta-btn">
+            <span>Get in Touch</span>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.66669 11.3333L11.3334 4.66663M11.3334 4.66663H4.66669M11.3334 4.66663V11.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- HERO / INTRO SECTION -->
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-intro reveal">
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              <span>Engineering Directory & Active Projects</span>
+            </div>
+            
+            <h1 class="hero-title">
+              THINGS I <span class="text-red">DO</span>
+            </h1>
+            <p class="hero-subtitle">
+              A comprehensive breakdown of <em class="serif-title">my engineering work.</em>
+            </p>
+
+            <p class="hero-description">
+              Welcome to my main catalog. I'm <strong>Aromal J.</strong>, and this directory outlines the three core pillars of my technical work: my ongoing <strong>Synapse OS</strong> development, production server infrastructure, and custom automation scripting.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TICKER BAR -->
+      <div class="ticker-bar">
+        <div class="ticker-track">
+          <span>Synapse OS Core</span>
+          <span class="bullet">◆</span>
+          <span>Linux Server Administration</span>
+          <span class="bullet">◆</span>
+          <span>Reverse Proxies & SSL</span>
+          <span class="bullet">◆</span>
+          <span>Custom C Tooling</span>
+          <span class="bullet">◆</span>
+          <span>Automation Scripts</span>
+          <span class="bullet">◆</span>
+          <span>Synapse OS Core</span>
+          <span class="bullet">◆</span>
+          <span>Linux Server Administration</span>
+        </div>
+      </div>
+
+      <!-- MAIN CARDS SECTION USING INDEX.HTML CAPABILITIES STRUCTURE -->
+      <section class="section capabilities-section">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">DIRECTORY // CORE PILLARS</span>
+          <h2>Active Builds & <em class="serif-text">Engineering Services</em></h2>
+        </div>
+
+        <div class="capabilities-grid reveal">
+          
+          <!-- CARD 1: SYNAPSE OS DEVELOPMENT -->
+          <article class="capability-card" id="synapse-os">
+            <div class="card-num">01</div>
+            <h3>Synapse OS Development</h3>
+            <p><strong>Active OS Build & Daily Driver</strong> — Custom operating system project tailored for extreme responsiveness, modular control, and minimal runtime overhead.</p>
+            <p>Includes kernel customization, low-level C utilities, tailored tiling window management, Neovim runtime setups, and rapid keybinding configurations.</p>
+            <a href="index.html#contact" class="card-link">Inquire About Synapse OS Blueprint →</a>
+          </article>
+
+          <!-- CARD 2: LINUX INFRASTRUCTURE -->
+          <article class="capability-card" id="infrastructure">
+            <div class="card-num">02</div>
+            <h3>Linux Infrastructure</h3>
+            <p><strong>Production Ready</strong> — End-to-end administration, security, and performance tuning for Linux server environments.</p>
+            <p>Covers firewall hardening (UFW/NFTables), SSH key policies, Fail2ban, Nginx/Caddy proxies, SSL/TLS automation, Docker containerization, and remote automated backups.</p>
+            <a href="index.html#contact" class="card-link">Request Server Administration →</a>
+          </article>
+
+          <!-- CARD 3: WEB DEPLOYMENTS & SCRIPTS -->
+          <article class="capability-card" id="deployments">
+            <div class="card-num">03</div>
+            <h3>Web Deployments & Scripts</h3>
+            <p><strong>Custom Automation</strong> — Bridging modern software with production infrastructure through efficient scripts and continuous deployment setups.</p>
+            <p>Delivers zero-downtime hosting for static and dynamic sites, tailored Bash and Python administrative scripts, and lightweight Git-driven CI/CD hooks.</p>
+            <a href="website-deployments.html" class="card-link">Discuss Custom Deployments →</a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- PRE-FOOTER CALLOUT BANNER -->
+      <section class="callout-section reveal">
+        <div class="callout-card">
+          <div class="callout-content">
+            <span class="section-eyebrow">// DIRECT COLLABORATION</span>
+            <h2>Have a specific system build or infrastructure requirement?</h2>
+            <p>Reach out directly to discuss Synapse OS, server administration, or deployment projects.</p>
+          </div>
+          <a href="index.html#contact" class="callout-btn">
+            <span>GET IN TOUCH</span>
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none"><path d="M4.16669 10H15.8334M15.8334 10L10 4.16663M15.8334 10L10 15.8333" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER & DIRECT CONTACT -->
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-contact-info">
+            <span class="section-eyebrow">04 // DIRECT INQUIRIES</span>
+            <h2>Let’s start a conversation.</h2>
+            <p>Have an infrastructure challenge, server project, or engineering proposal?</p>
+          </div>
+          <a href="mailto:aromalism.official@gmail.com" class="footer-email-btn">
+            <span>aromalism.official@gmail.com</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4.66669 11.3333L11.3334 4.66663M11.3334 4.66663H4.66669M11.3334 4.66663V11.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="copyright">
+            © <span id="year"></span> AROM<span class="text-red">AL</span>ISM (Aromal J.) — All rights reserved.
+          </div>
+          <div class="footer-socials">
+            <a href="https://github.com/aromalism" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/aromalism" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://twitter.com/aromalism" target="_blank" rel="noreferrer">X / Twitter</a>
+            <a href="https://www.instagram.com/aromalism" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

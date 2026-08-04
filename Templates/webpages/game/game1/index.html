@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYBERCORE: OBSIDIAN // 2099 — Official Game Portal</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Glitch HUD Overlay Banner -->
+  <div class="system-bar">
+    <div class="system-status">
+      <span class="pulse-dot"></span>
+      <span>SYSTEM STATUS: <strong>ONLINE // VERIDIA GRID v4.09</strong></span>
+    </div>
+    <div class="system-ticker">
+      <span>[EARLY ACCESS REWARDS READY] PRE-ORDER NOW FOR EXCLUSIVE OBSIDIAN WEAPON SKIN</span>
+    </div>
+    <div class="system-time" id="hudClock">00:00:00 UTC</div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <span class="logo-glitch" data-text="CYBERCORE">CYBERCORE</span>
+        <span class="logo-sub">OBSIDIAN // 2099</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="#overview" class="nav-link">Overview</a>
+        <a href="#factions" class="nav-link">Factions</a>
+        <a href="#augments" class="nav-link">Aug-Profiler</a>
+        <a href="#media" class="nav-link">Media</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-cyber-outline" id="soundToggle"><i class="fa-solid fa-volume-high"></i> AUDIO: ON</button>
+        <button class="btn-cyber-primary" id="preOrderBtn">Pre-Order Now</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="overview">
+    <div class="scanline-overlay"></div>
+    <div class="hero-content">
+      <div class="hud-badge"><i class="fa-solid fa-microchip"></i> UNREAL ENGINE 5.5 POWERED</div>
+      <h1 class="hero-title">REWRITE THE<br><span class="text-neon-cyan">NEURAL CODE.</span></h1>
+      <p class="hero-subtitle">Step into Neo-Veridia—a towering megalopolis ruled by mega-corporations. Hack neural networks, augment your body, and wage war in the shadows.</p>
+      
+      <div class="hero-cta-group">
+        <a href="#augments" class="btn-cyber-primary btn-lg"><i class="fa-solid fa-bolt"></i> Build Cyberware</a>
+        <button class="btn-cyber-magenta btn-lg" id="watchTrailerBtn"><i class="fa-solid fa-play"></i> Watch Gameplay</button>
+      </div>
+
+      <!-- Live Telemetry Stats -->
+      <div class="hud-telemetry">
+        <div class="telemetry-box">
+          <span class="telemetry-value">4K 120FPS</span>
+          <span class="telemetry-label">Ray-Tracing Ultra</span>
+        </div>
+        <div class="telemetry-divider"></div>
+        <div class="telemetry-box">
+          <span class="telemetry-value">120+ HRS</span>
+          <span class="telemetry-label">Open-World Story</span>
+        </div>
+        <div class="telemetry-divider"></div>
+        <div class="telemetry-box">
+          <span class="telemetry-value">ZERO LOSS</span>
+          <span class="telemetry-label">Seamless Multiplayer</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Factions & Classes Section -->
+  <section class="section factions-section" id="factions">
+    <div class="section-header">
+      <div>
+        <span class="section-subtitle">// FACTION & CLASS SELECTOR</span>
+        <h2 class="section-title">CHOOSE YOUR OPERATIVE</h2>
+      </div>
+      <div class="filter-pills">
+        <button class="pill active" data-filter="all">All Classes</button>
+        <button class="pill" data-filter="netrunner">Netrunner</button>
+        <button class="pill" data-filter="streetrunner">Sol-Enforcer</button>
+        <button class="pill" data-filter="techie">Bio-Techie</button>
+      </div>
+    </div>
+
+    <div class="class-grid">
+      <!-- Card 1 -->
+      <div class="class-card" data-category="netrunner">
+        <div class="card-image-wrap">
+          <span class="card-tag tag-cyan">HACKER</span>
+          <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80" alt="Ghost Netrunner">
+          <div class="hud-overlay-corner"></div>
+        </div>
+        <div class="card-details">
+          <span class="item-category">SPEC: DEEP MATRIX</span>
+          <h3 class="item-title">Ghost Netrunner</h3>
+          <p class="item-desc">Master of neural override, optic glitches, and remote turrets. Hijack enemy cyberware mid-combat.</p>
+          <div class="stat-bar-group">
+            <div class="stat-row"><span>HACKING</span><div class="bar"><div class="fill" style="width: 95%;"></div></div></div>
+            <div class="stat-row"><span>COMBAT</span><div class="bar"><div class="fill" style="width: 45%;"></div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="class-card" data-category="streetrunner">
+        <div class="card-image-wrap">
+          <span class="card-tag tag-magenta">SOLDIER</span>
+          <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=800&q=80" alt="Apex Enforcer">
+          <div class="hud-overlay-corner"></div>
+        </div>
+        <div class="card-details">
+          <span class="item-category">SPEC: HEAVY ARMOR</span>
+          <h3 class="item-title">Apex Enforcer</h3>
+          <p class="item-desc">Heavily augmented front-line combatant equipped with sub-dermal armor plating and thermal arm blades.</p>
+          <div class="stat-bar-group">
+            <div class="stat-row"><span>HACKING</span><div class="bar"><div class="fill" style="width: 30%;"></div></div></div>
+            <div class="stat-row"><span>COMBAT</span><div class="bar"><div class="fill" style="width: 98%;"></div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="class-card" data-category="techie">
+        <div class="card-image-wrap">
+          <span class="card-tag tag-green">ENGINEER</span>
+          <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80" alt="Nanite Bio-Techie">
+          <div class="hud-overlay-corner"></div>
+        </div>
+        <div class="card-details">
+          <span class="item-category">SPEC: NANITE TECH</span>
+          <h3 class="item-title">Nanite Bio-Techie</h3>
+          <p class="item-desc">Deploys combat drones, self-repairing nanite swarms, and portable EMP barricades on the fly.</p>
+          <div class="stat-bar-group">
+            <div class="stat-row"><span>HACKING</span><div class="bar"><div class="fill" style="width: 75%;"></div></div></div>
+            <div class="stat-row"><span>COMBAT</span><div class="bar"><div class="fill" style="width: 70%;"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Cyberware Augmentation Diagnostic Tool -->
+  <section class="section aug-section" id="augments">
+    <div class="aug-container cyber-glass-card">
+      <div class="aug-header">
+        <span class="section-subtitle">// NEURAL INTERFACE PROTOCOL</span>
+        <h2>Cyberware Build Generator</h2>
+        <p>Configure your operative's combat parameters to generate an optimized cybernetic loadout for Neo-Veridia operations.</p>
+      </div>
+
+      <div class="aug-calculator">
+        <div class="input-group-row">
+          <div class="input-box">
+            <label for="playstyle"><i class="fa-solid fa-crosshair"></i> Combat Style</label>
+            <select id="playstyle">
+              <option value="stealth">Stealth & Optical Camo</option>
+              <option value="assault">Guns Blazing & Heavy Explosives</option>
+              <option value="hacker">Overclocked Remote Hacking</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <label for="cyberSlot"><i class="fa-solid fa-brain"></i> Primary Neural Slot</label>
+            <select id="cyberSlot">
+              <option value="cortex">Sandevistan Speed Reflex Processor</option>
+              <option value="dermal">Titanium Sub-Dermal Weave</option>
+              <option value="ocular">Kiroshi Threat Analysis Optics</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <label for="faction"><i class="fa-solid fa-shield"></i> Faction Alignment</label>
+            <select id="faction">
+              <option value="syndicate">Obsidian Syndicate</option>
+              <option value="corpo">Arasaka-Tech Conglomerate</option>
+              <option value="street">Veridia Street Reapers</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="btn-cyber-primary btn-full" id="generateBuildBtn"><i class="fa-solid fa-microchip"></i> COMPUTE LOADOUT PROFILE</button>
+
+        <div class="aug-result hidden" id="augResult">
+          <div class="result-header">
+            <span class="result-badge"><i class="fa-solid fa-check-double"></i> LOADOUT GENERATED</span>
+            <span class="result-id">ID: #9904-CYBER</span>
+          </div>
+          <h3 id="buildTitle">The Ghost Reaper Build</h3>
+          <p id="buildText">Optic Camo + Sandevistan Speed Matrix equipped. Critical damage increased by 240%, detection radius reduced by 80%.</p>
+          <div class="result-action">
+            <button class="btn-cyber-magenta" id="saveBuildBtn">Save Build to Game Cloud</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col brand-col">
+        <a href="#" class="brand-logo">
+          <span class="logo-glitch" data-text="CYBERCORE">CYBERCORE</span>
+        </a>
+        <p>Available on PC, PlayStation 5, and Xbox Series X|S. Powered by Unreal Engine 5.</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-discord"></i></a>
+          <a href="#"><i class="fa-brands fa-twitch"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="#overview">Game Overview</a>
+        <a href="#factions">Factions & Lore</a>
+        <a href="#augments">Cyberware Builder</a>
+        <a href="#">Patch Notes v1.04</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>System Specs</h4>
+        <p class="spec-txt"><strong>MINIMUM:</strong> RTX 3060, 16GB RAM, 100GB SSD</p>
+        <p class="spec-txt"><strong>RECOMMENDED:</strong> RTX 4080, 32GB RAM, NVMe SSD</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Veridia Net Wire</h4>
+        <p>Subscribe for beta test codes and exclusive weapon skin drops.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="OPERATIVE@NET.COM" required>
+          <button type="submit"><i class="fa-solid fa-chevron-right"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 OBSIDIAN GAMES STUDIOS. ALL RIGHTS RESERVED.</p>
+      <div class="footer-legal">
+        <a href="#">PRIVACY POLICY</a>
+        <a href="#">TERMS OF SERVICE</a>
+        <a href="#">EULA</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAISON VÉRONIQUE — Haute Couture & Bespoke Atelier</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span>SPRING/SUMMER '26 RUNWAY COLLECTION NOW AVAILABLE IN ATELIER</span>
+    <a href="#collections" class="announcement-link">EXPLORE LOOKBOOK <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">MAISON VÉRONIQUE<span>ATELIER</span></a>
+      
+      <nav class="nav-links">
+        <a href="#collections" class="nav-link">Collections</a>
+        <a href="#atelier" class="nav-link">The Atelier</a>
+        <a href="#fit-finder" class="nav-link">Fit Finder</a>
+        <a href="#vip" class="nav-link">VIP Access</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="icon-btn" aria-label="Saved"><i class="fa-regular fa-heart"></i></button>
+        <button class="btn-primary" id="bookStylistBtn">Book Styling</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-badge">NEW SEASON ARRIVAL</span>
+      <h1 class="hero-title">Timeless Elegance,<br><em>Precision Tailored.</em></h1>
+      <p class="hero-subtitle">Discover handcrafted garments, sculptural silhouettes, and sustainable luxury curated for the modern wardrobe.</p>
+      
+      <div class="hero-cta-group">
+        <a href="#collections" class="btn-gold">Shop S/S '26 Collection</a>
+        <a href="#fit-finder" class="btn-outline">Personal Style Quiz</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Organic Silk & Cashmere</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">48 Hr</span>
+          <span class="stat-label">Bespoke Alteration</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">Private</span>
+          <span class="stat-label">Suite Consultations</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Collections Showcase -->
+  <section class="section collections-section" id="collections">
+    <div class="section-header">
+      <div>
+        <span class="section-subtitle">CURATED SELECTIONS</span>
+        <h2 class="section-title">Spring/Summer '26 Capsule</h2>
+      </div>
+      <div class="filter-pills">
+        <button class="pill active" data-filter="all">All Pieces</button>
+        <button class="pill" data-filter="couture">Haute Couture</button>
+        <button class="pill" data-filter="wear">Ready-To-Wear</button>
+        <button class="pill" data-filter="accessories">Fine Accessories</button>
+      </div>
+    </div>
+
+    <div class="collection-grid">
+      <!-- Card 1 -->
+      <div class="product-card" data-category="couture">
+        <div class="card-image-wrap">
+          <span class="card-tag">Limited Edition</span>
+          <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRqKdMoYixsMsEyqyWK9i1dEYHmsOLLt9bkdbkzUdMAUwXDOMhRnZcBSplhFfMmCKZcPYay078rHHNlZ9c" alt="Sculptural Evening Gown">
+          <button class="quick-add"><i class="fa-solid fa-plus"></i> Quick View</button>
+        </div>
+        <div class="card-details">
+          <span class="item-category">Haute Couture</span>
+          <h3 class="item-title">Sculptural Fringe Evening Gown</h3>
+          <div class="item-price-row">
+            <span class="item-price">$3,450</span>
+            <div class="color-dots">
+              <span class="dot gold"></span>
+              <span class="dot black"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="product-card" data-category="wear">
+        <div class="card-image-wrap">
+          <span class="card-tag">Atelier Exclusive</span>
+          <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSdnjmmLAL7Rmy2AtSjnFnCAhwQRPRKte-lnM4o6jKbPA2HKaKQmX2-IPKvhVin5Y9fXc-35CzdUBxwXUw" alt="Handcrafted Wool Suit">
+          <button class="quick-add"><i class="fa-solid fa-plus"></i> Quick View</button>
+        </div>
+        <div class="card-details">
+          <span class="item-category">Bespoke Tailoring</span>
+          <h3 class="item-title">Double-Breasted Cashmere Suit</h3>
+          <div class="item-price-row">
+            <span class="item-price">$2,800</span>
+            <div class="color-dots">
+              <span class="dot grey"></span>
+              <span class="dot navy"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="product-card" data-category="wear">
+        <div class="card-image-wrap">
+          <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcR7qHQ2e0yTmObwYUYX6DDjs9ty4UzpL5IO3vbkLTfB9AGTTP6FBcEXVgx2HoAD9F65kfXjND9B1ulz8_0" alt="Lace Summer Dress">
+          <button class="quick-add"><i class="fa-solid fa-plus"></i> Quick View</button>
+        </div>
+        <div class="card-details">
+          <span class="item-category">Ready-To-Wear</span>
+          <h3 class="item-title">Crochet Lace Riviera Mini Dress</h3>
+          <div class="item-price-row">
+            <span class="item-price">$1,120</span>
+            <div class="color-dots">
+              <span class="dot yellow"></span>
+              <span class="dot white"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="product-card" data-category="accessories">
+        <div class="card-image-wrap">
+          <span class="card-tag">New Season</span>
+          <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSoK9N6K7we50IIDIHjOzHmjHob2QZnGkYeqrSBo9Ve6YZc9JsU4pMhXFKkbrGpz3qbd3OwWH7ACOjW5QQ" alt="Gold Jewelry Display">
+          <button class="quick-add"><i class="fa-solid fa-plus"></i> Quick View</button>
+        </div>
+        <div class="card-details">
+          <span class="item-category">Fine Jewelry</span>
+          <h3 class="item-title">18K Hammered Gold Choker & Drop Rings</h3>
+          <div class="item-price-row">
+            <span class="item-price">$1,850</span>
+            <div class="color-dots">
+              <span class="dot gold"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Tool: Bespoke Silhouette & Fit Profiler -->
+  <section class="section fit-section" id="fit-finder">
+    <div class="fit-container glass-card">
+      <div class="fit-header">
+        <span class="section-subtitle">PERSONALIZED SYTLING</span>
+        <h2>Interactive Silhouette & Fit Recommender</h2>
+        <p>Answer three brief questions to receive custom sizing, silhouette matches, and curated capsule recommendations from our master tailors.</p>
+      </div>
+
+      <div class="fit-calculator">
+        <div class="input-group-row">
+          <div class="input-box">
+            <label for="fitOccasion"><i class="fa-solid fa-glass-cheers"></i> Primary Occasion</label>
+            <select id="fitOccasion">
+              <option value="gala">Gala & Formal Black-Tie</option>
+              <option value="business">Executive & Daily Luxury</option>
+              <option value="resort">Resort & Evening Soirée</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <label for="fitBody"><i class="fa-solid fa-ruler-vertical"></i> Preferred Silhouette</label>
+            <select id="fitBody">
+              <option value="tailored">Structured & Architectural</option>
+              <option value="fluid">Fluid & Draped Elegance</option>
+              <option value="minimal">Minimalist Clean Lines</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <label for="fitHeight"><i class="fa-solid fa-arrows-up-down"></i> Height Range</label>
+            <select id="fitHeight">
+              <option value="petite">Under 5'5" (165 cm)</option>
+              <option value="regular">5'5" - 5'9" (165-175 cm)</option>
+              <option value="tall">Over 5'9" (175 cm)</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="btn-gold" id="calculateFitBtn"><i class="fa-solid fa-wand-magic-sparkles"></i> Generate Profile Recommendation</button>
+
+        <div class="fit-result hidden" id="fitResult">
+          <div class="result-badge"><i class="fa-solid fa-check"></i> Bespoke Profile Generated</div>
+          <h3 id="recommendationTitle">The Architectural Capsule</h3>
+          <p id="recommendationText">Based on your choices, we recommend European size EU 38 with tailored length adjustments. Recommended palette: Obsidian, Champagne Gold, and Warm Almond.</p>
+          <div class="result-action">
+            <button class="btn-outline" id="saveProfileBtn">Save Profile to Account</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIP Atelier Experience Card -->
+  <section class="section vip-section" id="vip">
+    <div class="vip-banner">
+      <div class="vip-content">
+        <span class="vip-tag">BY APPOINTMENT ONLY</span>
+        <h2>Private Suite Experience</h2>
+        <p>Enjoy champagne, private fitting rooms, and 1-on-1 consultations with our senior creative director at our flagship salon.</p>
+        <ul class="vip-perks">
+          <li><i class="fa-solid fa-check"></i> Dedicated Master Tailor & Personal Stylist</li>
+          <li><i class="fa-solid fa-check"></i> Custom Fabric Swatches & 3D Fittings</li>
+          <li><i class="fa-solid fa-check"></i> Complimentary Home Delivery & Alterations</li>
+        </ul>
+        <button class="btn-gold">Request Private Appointment</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col brand-col">
+        <a href="#" class="brand-logo">MAISON VÉRONIQUE</a>
+        <p>Redefining haute couture through artisanal craftsmanship, sustainable silk, and modern silhouettes.</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Collections</h4>
+        <a href="#">Spring/Summer '26</a>
+        <a href="#">Haute Couture</a>
+        <a href="#">Ready-To-Wear</a>
+        <a href="#">Bridal Atelier</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#">Bespoke Alterations</a>
+        <a href="#">Private Styling</a>
+        <a href="#">Garment Care Guide</a>
+        <a href="#">Global Concierge</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Privé Newsletter</h4>
+        <p>Receive exclusive invitations to private salon viewings and seasonal releases.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 MAISON VÉRONIQUE. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Sustainability Statement</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

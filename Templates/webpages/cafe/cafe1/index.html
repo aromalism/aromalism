@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOIR & BEAN // Artisan Coffee Roaster & Bakery</title>
+  
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Banner -->
+  <div class="announcement-bar" id="announcement-bar">
+    <div class="container announcement-content">
+      <span>☕ <strong>NEW DROP:</strong> Ethiopian Yirgacheffe Single-Origin Reserve (Notes of Jasmine & Bergamot).</span>
+      <a href="#menu" class="announcement-link">Order Beans &rarr;</a>
+      <button class="announcement-close" id="close-banner" aria-label="Close notification">&times;</button>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">NOIR & BEAN<span>ROASTERY & ATELIER</span></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#menu" class="nav-link">Menu & Reserve</a>
+        <a href="#brew-matcher" class="nav-link">Brew Matcher</a>
+        <a href="#roastery" class="nav-link">Our Craft</a>
+        <a href="#visit" class="nav-link">Visit Us</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#menu" class="btn btn-primary">Order Ahead</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-banner" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="badge">🔥 FRESHLY ROASTED DAILY</div>
+      <h1 class="hero-title">PRECISION ROASTED.<br><em>ELEVATED BREWING.</em></h1>
+      <p class="hero-description">
+        Direct-trade micro-lot coffee beans, artisanal sourdough pastries, and hand-poured pour-overs crafted in our obsidian café laboratory.
+      </p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary btn-large">Explore Menu</a>
+        <a href="#brew-matcher" class="btn btn-outline btn-large">Find Your Brew</a>
+      </div>
+      
+      <!-- Stats Banner -->
+      <div class="hero-stats">
+        <div class="stat-item">
+          <h3>100%</h3>
+          <p>Direct-Trade Specialty Beans</p>
+        </div>
+        <div class="stat-item">
+          <h3>88+</h3>
+          <p>SCA Cupping Score</p>
+        </div>
+        <div class="stat-item">
+          <h3>Daily</h3>
+          <p>Fresh Oven Bake</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Menu Section -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-subtitle">OUR OFFERINGS</span>
+          <h2 class="section-title">CRAFTED FOR PALATES</h2>
+        </div>
+        <div class="filter-pills">
+          <button class="pill active" data-filter="all">All</button>
+          <button class="pill" data-filter="espresso">Espresso Bar</button>
+          <button class="pill" data-filter="pourover">Pour Over</button>
+          <button class="pill" data-filter="pastry">Pastries</button>
+          <button class="pill" data-filter="beans">Whole Bean</button>
+        </div>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Item 1 -->
+        <div class="card menu-card" data-category="espresso">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80" alt="Cortado" />
+            <span class="card-tag">Signature</span>
+          </div>
+          <div class="card-body">
+            <div class="item-header">
+              <h3>Obsidian Cortado</h3>
+              <span class="item-price">$5.50</span>
+            </div>
+            <p>Double espresso ristretto cut with textured oat milk and dark amber honey sprinkle.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="card menu-card" data-category="pourover">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Pour Over Coffee" />
+            <span class="card-tag">Micro-Lot</span>
+          </div>
+          <div class="card-body">
+            <div class="item-header">
+              <h3>Geisha Chemex Reserve</h3>
+              <span class="item-price">$8.00</span>
+            </div>
+            <p>Notes of white peach, jasmine, and citrus zest. Brewed precise to 93°C water temperature.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="card menu-card" data-category="pastry">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" alt="Almond Croissant" />
+            <span class="card-tag">Fresh Baked</span>
+          </div>
+          <div class="card-body">
+            <div class="item-header">
+              <h3>Cardamom Almond Croissant</h3>
+              <span class="item-price">$6.25</span>
+            </div>
+            <p>72-hour fermented butter laminations filled with toasted cardamom frangipane.</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="card menu-card" data-category="beans">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=800&q=80" alt="Coffee Bean Bag" />
+            <span class="card-tag">250g Bag</span>
+          </div>
+          <div class="card-body">
+            <div class="item-header">
+              <h3>Velvet Noir Blend</h3>
+              <span class="item-price">$22.00</span>
+            </div>
+            <p>Dark chocolate, hazelnut, and salted caramel profile. Ideal for espresso & moka pot.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Coffee & Brew Matcher Tool -->
+  <section class="section brew-section" id="brew-matcher">
+    <div class="container">
+      <div class="card brew-card">
+        <div class="brew-info">
+          <span class="section-subtitle">PERSONALIZED PALATE</span>
+          <h2>Interactive Brew Matcher</h2>
+          <p>Select your flavor preferences to get custom bean recommendations and dial-in brewing parameters.</p>
+        </div>
+
+        <form class="brew-form" id="brew-form">
+          <div class="input-group">
+            <label for="roastPref"><i class="fa-solid fa-fire"></i> Roast Intensity</label>
+            <select id="roastPref">
+              <option value="light">Light Roast (Floral, Bright, Fruity)</option>
+              <option value="medium">Medium Roast (Caramel, Balance, Citrus)</option>
+              <option value="dark">Dark Roast (Bold, Chocolate, Smoky)</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="methodPref"><i class="fa-solid fa-mug-hot"></i> Preferred Brew Method</label>
+            <select id="methodPref">
+              <option value="espresso">Espresso / Milk Drinks</option>
+              <option value="pourover">Filter / Pour-Over / V60</option>
+              <option value="coldbrew">Cold Brew / Iced</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full"><i class="fa-solid fa-wand-magic-sparkles"></i> Match My Drink</button>
+
+          <div class="brew-result hidden" id="brew-result">
+            <div class="result-badge"><i class="fa-solid fa-star"></i> Perfect Match</div>
+            <h3 id="recommendationTitle">Ethiopian Yirgacheffe</h3>
+            <p id="recommendationText">Notes of Jasmine & Peach. Best extracted via V60 Pour Over at 1:16 ratio.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roastery & Craft Showcase -->
+  <section class="section roastery-section" id="roastery">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">BEHIND THE BEAN</span>
+        <h2 class="section-title">SUSTAINABLE & UNCOMPROMISED</h2>
+      </div>
+
+      <div class="craft-grid">
+        <div class="craft-item">
+          <div class="craft-icon"><i class="fa-solid fa-seedling"></i></div>
+          <h3>Ethical Sourcing</h3>
+          <p>We work directly with smallholder farmers in Colombia, Ethiopia, and Guatemala, paying 40% above fair-trade prices.</p>
+        </div>
+
+        <div class="craft-item">
+          <div class="craft-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div>
+          <h3>Custom Drum Roasting</h3>
+          <p>Roasting in micro-batches on our restored Loring Smart Roaster to maximize origin flavor nuance and body.</p>
+        </div>
+
+        <div class="craft-item">
+          <div class="craft-icon"><i class="fa-solid fa-glass-water"></i></div>
+          <h3>Remineralized Water</h3>
+          <p>Reverse-osmosis water filtered and remineralized with magnesium and calcium for flawless extraction balance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="visit">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#" class="brand-logo">NOIR & BEAN<span>.</span></a>
+        <p>Specialty coffee atelier and micro-roastery built for true espresso connoisseurs.</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-spotify"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#brew-matcher">Brew Matcher</a></li>
+          <li><a href="#roastery">Our Craft</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Hours & Location</h4>
+        <p>📍 742 Obsidian Ave, Suite 100</p>
+        <p>🕒 Mon – Fri: 6:30 AM – 6:00 PM</p>
+        <p>🕒 Sat – Sun: 7:30 AM – 7:00 PM</p>
+        <p>✉️ hello@noirandbean.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; 2026 NOIR & BEAN Roasters. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
