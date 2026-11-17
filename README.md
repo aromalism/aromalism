@@ -4,7 +4,7 @@ I'm interested in Linux systems, infrastructure engineering and software develop
 
 My approach to engineering is rooted in curiosity, learning by building, understanding fundamentals and continuously improving what I create.
 
-**[Personal Portfolio](https://github.com/aromalism/aromalism/deployments/github-pages)** · **[GitHub Repositories](https://github.com/aromalism?tab=repositories)** · **[LinkedIn](https://www.linkedin.com/in/aromalism/)** · **[Email](mailto:aromalism.official@gmail.com)**
+**[Personal Portfolio](https://aromalism.github.io/aromalism/)** · **[GitHub Repositories](https://github.com/aromalism?tab=repositories)** · **[LinkedIn](https://www.linkedin.com/in/aromalism/)** · **[Email](mailto:aromalism.official@gmail.com)**
 
 ---
 
