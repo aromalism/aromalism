@@ -1,272 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Aromal J. (Aromalism) — Creator of Synapse OS, Linux Infrastructure Engineer, and Systems Programmer."
-    />
-    <title>AROMALISM — Aromal J. | Synapse OS & Linux Systems</title>
-
-    <!-- Fonts: Instrument Serif + Plus Jakarta Sans + JetBrains Mono -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aromalism | Linux &amp; Systems</title>
+    <meta name="description" content="Aromal J. is a BCA student in Kerala, India, interested in Linux systems, infrastructure engineering, networking, and software development.">
+    <meta name="theme-color" content="#141713">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Aromalism | Linux &amp; Systems">
+    <meta property="og:description" content="Building and understanding the systems beneath.">
+    <meta property="og:url" content="https://aromalism.github.io/aromalism/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
   </head>
   <body>
-    <!-- Navigation Header -->
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <div class="header-inner">
-        <a href="#top" class="brand-logo" aria-label="Aromalism Home">
-          <span class="logo-text">AROM<span class="text-red">AL</span>ISM</span>
-          <span class="logo-badge">SYNAPSE // SYS</span>
+      <div class="container header-inner">
+        <a class="wordmark" href="#top" aria-label="Aromalism, home">
+          <span class="wordmark-mark" aria-hidden="true">A</span>
+          <span>Aromalism</span>
         </a>
-
-        <nav class="nav-menu" aria-label="Main Navigation">
-          <a href="#synapse">Synapse OS</a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+          <span></span><span></span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
           <a href="#about">About</a>
-          <a href="#capabilities">Capabilities</a>
-          <a href="#environment">Environment</a>
+          <a href="#work">Selected work</a>
+          <a href="#toolkit">Toolkit</a>
           <a href="#contact">Contact</a>
         </nav>
-
-        <div class="header-actions">
-          <a href="things-i-do.html" class="nav-cta-btn">
-            <span>Things I Do</span>
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.66669 11.3333L11.3334 4.66663M11.3334 4.66663H4.66669M11.3334 4.66663V11.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-          <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
-            <span></span>
-            <span></span>
-          </button>
-        </div>
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="3.5"></circle>
+            <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+          </svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M20.2 15.1A8.4 8.4 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"></path>
+          </svg>
+        </button>
       </div>
     </header>
 
-    <main id="top">
-      <!-- HERO SECTION -->
-      <section class="hero-section">
-        <div class="hero-container">
-          <div class="hero-intro reveal">
-            <div class="status-pill">
-              <span class="status-dot"></span>
-              <span>Creator of Synapse OS & Infrastructure Engineer</span>
+    <main id="main">
+      <section class="hero section" id="top" aria-labelledby="hero-title">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Based in Kerala, India</p>
+            <h1 id="hero-title">Building and understanding <span>the systems beneath.</span></h1>
+            <p class="hero-intro">I'm interested in Linux systems, infrastructure engineering, networking, and software development. I enjoy understanding how systems work, building practical solutions, and improving them through experimentation.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">View my work <span aria-hidden="true">↘</span></a>
+              <a class="button button-quiet" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
             </div>
-            
-            <h1 class="hero-title">
-              AROM<span class="text-red">AL</span>ISM
-            </h1>
-            <p class="hero-subtitle">
-              Building <em class="serif-title">Synapse OS</em> and resilient systems from the core up.
-            </p>
-
-            <p class="hero-description">
-              I'm <strong>Aromal J.</strong> — Systems engineer actively developing <strong>Synapse OS</strong>, specializing in custom operating system architecture, production server infrastructure, and low-level Linux tooling.
-            </p>
           </div>
-
-          <!-- MAIN PRIMARY CALL-TO-ACTION CARD -->
-          <div class="hero-portal-card reveal">
-            <div class="portal-header">
-              <span class="portal-tag">MAJOR PROJECTS & DIRECTORY</span>
-              <span class="portal-status">Synapse OS Active Development</span>
+          <aside class="hero-aside" aria-label="Current focus">
+            <span class="aside-index">01 / A NOTE ON MY WORK</span>
+            <p>Curiosity, grounded in fundamentals.</p>
+            <div class="focus-list">
+              <span>Linux systems</span>
+              <span>Infrastructure</span>
+              <span>Networking</span>
+              <span>Software</span>
             </div>
-            
-            <div class="portal-body">
-              <h2>What I Build & Manage</h2>
-              <p>Explore Synapse OS development updates, Linux server administration packages, deployment blueprints, and system scripts.</p>
-              
-              <ul class="portal-features">
-                <li><span>01</span> Synapse OS Architecture & Tooling</li>
-                <li><span>02</span> Production Server Management & Hardening</li>
-                <li><span>03</span> Custom Linux Deployments & Infrastructure</li>
-              </ul>
-            </div>
+            <a class="text-link" href="#about">A little more about me <span aria-hidden="true">↓</span></a>
+          </aside>
+        </div>
+        <div class="container hero-foot" aria-hidden="true">
+          <span>INDEPENDENTLY LEARNING &amp; BUILDING</span>
+          <span>SCROLL TO EXPLORE <span class="scroll-line"></span></span>
+        </div>
+      </section>
 
-            <div class="portal-footer">
-              <a href="things-i-do.html" class="primary-portal-btn">
-                <span>EXPLORE "THINGS I DO" CATALOG</span>
-                <svg width="18" height="18" viewBox="0 0 20 20" fill="none"><path d="M4.16669 10H15.8334M15.8334 10L10 4.16663M15.8334 10L10 15.8333" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </a>
-              <a href="#contact" class="secondary-contact-link">Or send a direct inquiry →</a>
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="container split-layout">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="section-number">01</span> About</p>
+            <h2 id="about-title">Learn the shape<br>of the system.</h2>
+          </div>
+          <div class="about-copy">
+            <p class="lead">I'm Aromal J., pursuing a Bachelor of Computer Applications at IGNOU, with a practical interest in Linux, system administration, infrastructure, and networking.</p>
+            <p>I like to get close to the fundamentals: how a service starts, how machines communicate, and how the pieces of an environment fit together. I learn by exploring, building small practical solutions, and revisiting them with a clearer understanding.</p>
+            <div class="approach" aria-label="My approach: Understand, Build, Experiment, Improve">
+              <span>Understand</span><span aria-hidden="true">→</span>
+              <span>Build</span><span aria-hidden="true">→</span>
+              <span>Experiment</span><span aria-hidden="true">→</span>
+              <span>Improve</span>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- TICKER BAR -->
-      <div class="ticker-bar">
-        <div class="ticker-track">
-          <span>Synapse OS Development</span>
-          <span class="bullet">◆</span>
-          <span>Linux Kernel & OS Tuning</span>
-          <span class="bullet">◆</span>
-          <span>Low-Level Systems C Programming</span>
-          <span class="bullet">◆</span>
-          <span>Nginx / Caddy Proxying</span>
-          <span class="bullet">◆</span>
-          <span>Docker & Containerization</span>
-          <span class="bullet">◆</span>
-          <span>Bash & Python Automation</span>
-          <span class="bullet">◆</span>
-          <span>Synapse OS Development</span>
-          <span class="bullet">◆</span>
-          <span>Linux Kernel & OS Tuning</span>
-        </div>
-      </div>
-
-      <!-- ABOUT SECTION -->
-      <section class="section about-section" id="about">
-        <div class="section-grid">
-          <div class="section-header reveal">
-            <span class="section-eyebrow">01 // IDENTITY & SYNAPSE OS</span>
-            <h2>Engineering with <br /><em class="serif-text">first-principles rigor.</em></h2>
-          </div>
-
-          <div class="about-content reveal">
-            <p class="lead-text">
-              My core pursuit as <strong>Aromal</strong> is architecting <strong>Synapse OS</strong> — an operating system project I am actively building, configuring, and utilizing as my main working environment.
-            </p>
-            <p class="body-text">
-              Building an OS from the ground up enforces a deep understanding of memory management, kernel modules, shell execution, and zero-bloat performance. I apply this exact low-level engineering discipline when managing bare-metal Linux servers and production infrastructure.
-            </p>
-
-            <div class="stats-row">
-              <div class="stat-item">
-                <span class="stat-num">01</span>
-                <span class="stat-label">Active OS Build (Synapse)</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-num">99.9%</span>
-                <span class="stat-label">Infrastructure Priority</span>
-              </div>
+      <section class="section work-section" id="work" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-topline">
+            <div class="section-heading">
+              <p class="eyebrow"><span class="section-number">02</span> Selected work</p>
+              <h2 id="work-title">Projects in progress<br>and in perspective.</h2>
             </div>
+            <p class="section-note">A few things I've been building, exploring, and documenting.</p>
           </div>
-        </div>
-      </section>
 
-      <!-- CAPABILITIES PREVIEW -->
-      <section class="section capabilities-section" id="capabilities">
-        <div class="section-header reveal">
-          <span class="section-eyebrow">02 // CORE WORK & SERVICES</span>
-          <h2>Key Projects & <em class="serif-text">Engineering Offerings</em></h2>
-        </div>
-
-        <div class="capabilities-grid reveal">
-          <article class="capability-card" id="synapse">
-            <div class="card-num">01</div>
-            <h3>Synapse OS Development</h3>
-            <p>Custom operating system architecture built for extreme efficiency, minimalist design, custom system utilities, and developer workflows.</p>
-            <a href="things-i-do.html#synapse-os" class="card-link">Explore Synapse OS Blueprint →</a>
+          <article class="project project-featured" aria-labelledby="yathahi-title">
+            <div class="project-main">
+              <div class="project-meta"><span>01 — ONGOING</span><span>OPEN SOURCE</span></div>
+              <h3 id="yathahi-title">Yathahi<span class="project-period">.</span></h3>
+              <p class="project-summary">An infrastructure project exploring a unified way to provision, manage, and coordinate services across Linux systems.</p>
+              <p class="project-detail">Yathahi is evolving through exploration of infrastructure architecture, component responsibilities, and how systems can work together. It is an active early-stage project, not a finished production platform.</p>
+              <a class="project-link" href="https://github.com/yathahi" target="_blank" rel="noopener noreferrer">Explore Yathahi <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="architecture" aria-label="Yathahi's documented architecture has four components with distinct responsibilities: Entry, Core, Engine, and Administrator">
+              <p class="architecture-label">DOCUMENTED ARCHITECTURE · FOUR COMPONENTS</p>
+              <div class="architecture-flow">
+                <div class="architecture-node"><span>01</span><strong>Entry</strong><small>Initial setup and handoff</small></div>
+                <div class="architecture-node"><span>02</span><strong>Core</strong><small>Device and Engine management</small></div>
+                <div class="architecture-node"><span>03</span><strong>Engine</strong><small>Assigned service workloads</small></div>
+                <div class="architecture-node"><span>04</span><strong>Administrator</strong><small>Infrastructure coordination and network-level security</small></div>
+              </div>
+              <p class="architecture-boundary">Entry, device, workload, and infrastructure responsibilities stay distinct.</p>
+              <div class="architecture-footer"><span>GO</span><span>LINUX</span><span>CONTAINERS</span><span>INFRASTRUCTURE</span></div>
+            </div>
           </article>
 
-          <article class="capability-card">
-            <div class="card-num">02</div>
-            <h3>Linux Infrastructure</h3>
-            <p>Production server provisioning, security hardening, firewall configuration, DNS setup, and automated backup strategies.</p>
-            <a href="things-i-do.html#infrastructure" class="card-link">View Infrastructure Tiers →</a>
-          </article>
-
-          <article class="capability-card">
-            <div class="card-num">03</div>
-            <h3>Web Deployments & Scripts</h3>
-            <p>Deploying application nodes with SSL, reverse proxies, and CI/CD alongside custom C tools, shell utilities, and Python scripts.</p>
-            <a href="things-i-do.html#deployments" class="card-link">View Deployments & Tooling →</a>
-          </article>
-        </div>
-      </section>
-
-      <!-- WORKSTATION & ENVIRONMENT -->
-      <section class="section env-section" id="environment">
-        <div class="section-grid">
-          <div class="section-header reveal">
-            <span class="section-eyebrow">03 // ENVIRONMENT</span>
-            <h2>Workstation & <br /><em class="serif-text">Toolchain Stack</em></h2>
-          </div>
-
-          <div class="env-card reveal">
-            <div class="env-card-header">
-              <div class="sys-tag">SYNAPSE OS // ACTIVE SYSTEM BUILD (x86_64)</div>
-            </div>
-            
-            <div class="env-specs-grid">
-              <div class="spec-group">
-                <span class="spec-label">SYSTEM OS</span>
-                <span class="spec-val">Synapse OS (Daily Driver & Build)</span>
-              </div>
-              <div class="spec-group">
-                <span class="spec-label">HARDWARE NODE</span>
-                <span class="spec-val">AMD Ryzen 5 5500 (12) @ 3.6GHz</span>
-              </div>
-              <div class="spec-group">
-                <span class="spec-label">MEMORY</span>
-                <span class="spec-val">16GB DDR4 High-Frequency</span>
-              </div>
-              <div class="spec-group">
-                <span class="spec-label">EDITOR & SHELL</span>
-                <span class="spec-val">Neovim (Lua) · Zsh · Tmux</span>
-              </div>
-              <div class="spec-group">
-                <span class="spec-label">LANGUAGES</span>
-                <span class="spec-val">C · Python · Bash · SQL</span>
-              </div>
-              <div class="spec-group">
-                <span class="spec-label">DEVOPS & SYSTEMS</span>
-                <span class="spec-val">Docker · Nginx · Caddy · Git</span>
-              </div>
-            </div>
+          <div class="project-list">
+            <article class="project-row" aria-labelledby="synapse-title">
+              <div class="project-row-title"><span class="project-index">02</span><h3 id="synapse-title">Synapse OS</h3></div>
+              <p>An archived early-stage Linux ecosystem experiment in Arch packaging, custom ISO creation, system configuration, boot setup, and desktop customization.</p>
+              <div class="project-row-meta"><span>ARCHIVED</span><span>ARCH LINUX · PKGBUILD · BASH</span></div>
+              <a class="row-arrow" href="https://github.com/synapse-eco" target="_blank" rel="noopener noreferrer" aria-label="View Synapse OS on GitHub"><span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="project-row" aria-labelledby="galaxy-title">
+              <div class="project-row-title"><span class="project-index">03</span><h3 id="galaxy-title">Galaxy M21</h3></div>
+              <p>Personal technical documentation on Android device customization: bootloader unlocking, rooting, firmware, recovery, and custom ROM installation.</p>
+              <div class="project-row-meta"><span>DOCUMENTATION</span><span>ANDROID · ADB · FASTBOOT</span></div>
+              <a class="row-arrow" href="https://github.com/aromalism/galaxy-m21" target="_blank" rel="noopener noreferrer" aria-label="View Galaxy M21 documentation on GitHub"><span aria-hidden="true">↗</span></a>
+            </article>
           </div>
         </div>
       </section>
 
-      <!-- PRE-FOOTER CALLOUT BANNER -->
-      <section class="callout-section reveal">
-        <div class="callout-card">
-          <div class="callout-content">
-            <span class="section-eyebrow">// READY TO WORK TOGETHER?</span>
-            <h2>Need Synapse OS insights, server setups, or custom Linux builds?</h2>
-            <p>Browse through my active builds, service offerings, and deployment blueprints on "Things I Do".</p>
+      <section class="section toolkit-section" id="toolkit" aria-labelledby="toolkit-title">
+        <div class="container">
+          <div class="section-topline">
+            <div class="section-heading">
+              <p class="eyebrow"><span class="section-number">03</span> Technical toolkit</p>
+              <h2 id="toolkit-title">Tools, topics<br>&amp; things I'm learning.</h2>
+            </div>
+            <p class="section-note">A working list of technologies I've used or am currently learning. Not a measure of expertise.</p>
           </div>
-          <a href="things-i-do.html" class="callout-btn">
-            <span>GO TO "THINGS I DO"</span>
-            <svg width="18" height="18" viewBox="0 0 20 20" fill="none"><path d="M4.16669 10H15.8334M15.8334 10L10 4.16663M15.8334 10L10 15.8333" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
+          <div class="toolkit-grid">
+            <div class="toolkit-group"><h3>Operating systems</h3><p>Linux <span>·</span> Arch Linux <span>·</span> Debian <span>·</span> Ubuntu</p></div>
+            <div class="toolkit-group"><h3>Programming</h3><p>Go <span>·</span> C <span>·</span> Bash <span>·</span> Python (basic)</p></div>
+            <div class="toolkit-group"><h3>Infrastructure</h3><p>LXC <span>·</span> QEMU/KVM <span>·</span> NGINX <span>·</span> systemd</p></div>
+            <div class="toolkit-group"><h3>Networking</h3><p>TCP/IP <span>·</span> DNS <span>·</span> HTTP/HTTPS <span>·</span> Unix Domain Sockets</p></div>
+            <div class="toolkit-group"><h3>Security &amp; access</h3><p>SSH <span>·</span> SSL/TLS <span>·</span> UFW <span>·</span> firewalld</p></div>
+            <div class="toolkit-group"><h3>Tools</h3><p>Git <span>·</span> GitHub <span>·</span> Neovim <span>·</span> Nano <span>·</span> Ghostty</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section path-section" id="education" aria-labelledby="education-title">
+        <div class="container split-layout">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="section-number">04</span> Education</p>
+            <h2 id="education-title">Learning, in progress.</h2>
+          </div>
+          <div class="education-entry">
+            <span class="education-marker" aria-hidden="true"></span>
+            <div><h3>Bachelor of Computer Applications</h3><p>Indira Gandhi National Open University (IGNOU)</p><span class="education-status">Currently pursuing</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section opportunity-section" id="opportunities" aria-labelledby="opportunities-title">
+        <div class="container opportunity-layout">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="section-number">05</span> Opportunities</p>
+            <h2 id="opportunities-title">Ready to learn<br>on real systems.</h2>
+          </div>
+          <div class="opportunity-copy">
+            <p class="lead">I'm looking for an entry point where I can contribute, learn from practical work, and grow my understanding of systems.</p>
+            <p>I'm interested in internships and entry-level roles across Linux administration, IT and technical support, system administration, infrastructure, and networking.</p>
+            <a class="text-link" href="mailto:aromalism.official@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-layout">
+          <div>
+            <p class="eyebrow"><span class="section-number">06</span> Contact</p>
+            <h2 id="contact-title">Have something<br>good to build?</h2>
+          </div>
+          <div class="contact-details">
+            <a class="contact-email" href="mailto:aromalism.official@gmail.com">aromalism.official@gmail.com <span aria-hidden="true">↗</span></a>
+            <div class="contact-links">
+              <a href="https://github.com/aromalism" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              <span>Kerala, India</span>
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
-    <!-- FOOTER & DIRECT CONTACT -->
-    <footer id="contact">
-      <div class="footer-container">
-        <div class="footer-top">
-          <div class="footer-contact-info">
-            <span class="section-eyebrow">04 // DIRECT INQUIRIES</span>
-            <h2>Let’s start a conversation.</h2>
-            <p>Have a project inquiry, Linux server challenge, or engineering proposal?</p>
-          </div>
-          <a href="mailto:aromalism.official@gmail.com" class="footer-email-btn">
-            <span>aromalism.official@gmail.com</span>
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4.66669 11.3333L11.3334 4.66663M11.3334 4.66663H4.66669M11.3334 4.66663V11.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </div>
-
-        <div class="footer-bottom">
-          <div class="copyright">
-            © <span id="year"></span> AROM<span class="text-red">AL</span>ISM (Aromal J.) — All rights reserved.
-          </div>
-          <div class="footer-socials">
-            <a href="https://github.com/aromalism" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/aromalism" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="https://twitter.com/aromalism" target="_blank" rel="noreferrer">X / Twitter</a>
-            <a href="https://www.instagram.com/aromalism" target="_blank" rel="noreferrer">Instagram</a>
-          </div>
-        </div>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="wordmark" href="#top"><span class="wordmark-mark" aria-hidden="true">A</span><span>Aromalism</span></a>
+        <p>Built with curiosity. Improved with understanding.</p>
+        <a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </footer>
   </body>
