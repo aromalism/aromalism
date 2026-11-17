@@ -1,53 +1,128 @@
-<h1 align="center">Hi, I'm Aromal J. 👋</h1>
+# Hi, I'm Aromal J. 👋
 
-<p align="center">
-  I build thoughtful software at the intersection of systems, data, and intelligent experiences.
-</p>
+I'm interested in Linux systems, infrastructure engineering and software development. I enjoy understanding how systems work beneath the surface, exploring technical challenges and turning ideas into practical implementations.
 
-<p align="center">
-  <a href="https://github.com/aromalism?tab=repositories">Explore my work</a>
-  ·
-  <a href="mailto:aromalism.official@gmail.com">Get in touch</a>
-</p>
+My approach to engineering is rooted in curiosity, learning by building, understanding fundamentals and continuously improving what I create.
 
-## Introduction
+**[Personal Portfolio](https://github.com/aromalism/aromalism/deployments/github-pages)** · **[GitHub Repositories](https://github.com/aromalism?tab=repositories)** · **[LinkedIn](https://www.linkedin.com/in/aromalism/)** · **[Email](mailto:aromalism.official@gmail.com)**
 
-I'm an independent builder who enjoys taking ambitious ideas from a rough sketch to something real. I care about the foundations as much as the interface: systems that are reliable, data that stays useful, and products that make complex things feel simple.
+---
+
+## About Me
+
+I'm an independent developer with a strong interest in the Linux ecosystem and the engineering behind modern computing infrastructure.
+
+I enjoy working with Linux environments, managing systems, experimenting with networking and developing software that brings different components together.
+
+My interests extend across systems programming, infrastructure, virtualization, networking, service management and automation.
+
+I'm particularly interested in understanding how systems communicate, how infrastructure is provisioned and managed, and how independent services can work together reliably.
 
 ## Current Focus
 
-Right now, I'm building a collection of projects around operating systems, data infrastructure, and immersive digital experiences. My focus is on learning in public, shipping deliberately, and turning difficult technical problems into tools people can actually use.
+- Developing **Yathahi**, my long-term open-source infrastructure project.
+- Exploring Linux system administration and infrastructure management.
+- Learning more about networking, protocols and inter-system communication.
+- Building practical tools and automation with Go and Bash.
+- Exploring virtualization, containers and service orchestration.
 
-## Portfolio
+## Projects
 
-| Project | What it is |
-| --- | --- |
-| [Synapse OS](https://github.com/aromalism/synapse-os) | An exploration of a more connected, intentional operating-system experience. |
-| [StruxDB](https://github.com/aromalism/struxdb) | A project focused on making structured data more approachable and useful. |
-| [EchoVerse](https://github.com/aromalism/echoverse) | An immersive experiment in building meaningful digital spaces and interactions. |
-| [More projects →](https://github.com/aromalism?tab=repositories) | Experiments, learning projects, and ideas in progress. |
+### [Yathahi](https://github.com/yathahi)
 
-## Skills & Tools
+An open-source infrastructure project focused on building a unified, interoperable environment for provisioning, managing and orchestrating services across Linux systems.
 
-I work across the stack and enjoy learning the right tool for the problem.
+Yathahi is my primary engineering project and a long-term ambition. I'm actively developing it while exploring infrastructure architecture, component communication, provisioning and orchestration.
 
-`Systems` · `Databases` · `Backend engineering` · `Product design` · `Developer tooling` · `Open source`
+### [Synapse OS](https://github.com/synapse-eco)
 
-## Learning Journey
+An archived, early-stage Linux ecosystem experiment exploring Arch Linux packaging, custom ISO creation, system configuration, boot setup and desktop customization.
 
-I treat every project as a chance to go deeper: understand the fundamentals, build a small version, learn from what breaks, and improve it in the open. Lately, that journey has centered on systems thinking, data architecture, and the craft of designing calm, capable software.
+The work involved package development, system configuration and experimentation with the foundations of a customized Linux environment.
 
-## Philosophy
+### [Galaxy M21](https://github.com/aromalism/galaxy-m21)
 
-> Build with curiosity. Learn from first principles. Leave every system clearer than you found it.
+A personal technical documentation repository covering my hands-on experience with Android device customization, including bootloader unlocking, rooting, firmware flashing, custom recovery and custom ROM installation.
 
-I believe good technology should amplify people without demanding their attention. The best work is useful, understandable, and made with care.
+This documents my exploration of Android internals, firmware management and device-level troubleshooting.
 
-## Links / Contact
+## Technical Skills & Interests
 
-- GitHub: [@aromalism](https://github.com/aromalism)
-- Email: [aromalism.official@gmail.com](mailto:aromalism.official@gmail.com)
+My experience spans several areas of systems and software engineering. The technologies below represent some of the tools and environments I've worked with, rather than an exhaustive list.
 
-<p align="center">
-  <i>Always building, always learning.</i>
-</p>
+### Operating Systems & System Administration
+- Linux
+- Arch Linux
+- Ubuntu
+- Debian
+- Linux system administration
+- systemd and service management
+
+### Programming & Scripting
+- Go
+- C
+- Bash
+- Python (basic experience)
+
+### Infrastructure & Virtualization
+- LXC
+- QEMU/KVM
+- NGINX
+- PowerDNS
+- dnsmasq
+- Container management and service configuration
+
+### Networking & Communication
+- TCP/IP
+- Unix Domain Sockets (UDS)
+- HTTP and HTTPS
+- DNS
+- Network configuration and troubleshooting
+
+### Security & Remote Access
+- SSH
+- SSL/TLS
+- firewalld
+- UFW
+- Secure communication fundamentals
+
+### Development Environment & Tools
+- Git
+- GitHub
+- Neovim
+- Nano
+- Ghostty
+- Command-line utilities
+- Linux development and debugging tools
+
+## Education
+
+**Bachelor of Computer Applications (BCA)**  
+Indira Gandhi National Open University (IGNOU)  
+Currently pursuing.
+
+## Open to Opportunities
+
+I'm interested in opportunities that allow me to apply my technical knowledge, gain practical industry experience and grow as an engineer.
+
+Areas of interest:
+
+- Linux Administration
+- Linux / Technical Support
+- Infrastructure Engineering
+- System Administration
+- Networking and IT Operations
+- DevOps Internships and Entry-level Roles
+
+I'm also open to meaningful open-source contributions and technical collaborations.
+
+## Connect With Me
+
+- **GitHub:** [@aromalism](https://github.com/aromalism)
+- **Personal Portfolio:** [GitHub Pages](https://github.com/aromalism/aromalism/deployments/github-pages)
+- **LinkedIn:** [linkedin.com/in/aromalism](https://www.linkedin.com/in/aromalism/)
+- **Email:** [aromalism.official@gmail.com](mailto:aromalism.official@gmail.com)
+
+---
+
+*Build with curiosity. Understand the fundamentals. Make things work. Keep improving.*
